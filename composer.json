@@ -1,0 +1,22 @@
+{
+    "name": "drenty/yii2-inwebo",
+    "description": "Yii2 extension that provides a wrapper for Inwebo strong authentication service",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "David Renty",
+            "email": "david.renty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+       "psr-4": {
+           "drenty\\inwebo\\": ""
+       }
+    }
+}
