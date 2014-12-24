@@ -18,7 +18,7 @@ class Inwebo extends \yii\base\Component
 
     public function init()
     {
-        $this->authentication = new API\Authentication(__DIR__ . '/API/Authentication.wsdl', [
+        $this->authentication = new \drenty\inwebo\API\Authentication(__DIR__ . '/API/Authentication.wsdl', [
             'local_cert' => $this->apiCertificate,
             'passphrase' => $this->apiCertificatePassphrase
         ]);
