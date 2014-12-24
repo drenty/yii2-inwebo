@@ -16,8 +16,7 @@
     },
     "autoload": {
        "psr-4": {
-           "drenty\\inwebo\\": "",           
-           "drenty\\inwebo\\API\\": "API/"
+           "drenty\\inwebo\\": "",
        }
     }
 }
