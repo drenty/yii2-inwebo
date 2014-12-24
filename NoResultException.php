@@ -2,7 +2,7 @@
 
 namespace drenty\inwebo;
 
-class InweboNoResultException extends Exception
+class NoResultException extends \drenty\inwebo\Exception
 {
     /**
      * @return string the user-friendly name of this exception

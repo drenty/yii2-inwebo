@@ -2,7 +2,7 @@
 
 namespace drenty\inwebo;
 
-class InweboRefusedAuthenticationException extends Exception
+class RefusedAuthenticationException extends \drenty\inwebo\Exception
 {
     /**
      * @return string the user-friendly name of this exception
